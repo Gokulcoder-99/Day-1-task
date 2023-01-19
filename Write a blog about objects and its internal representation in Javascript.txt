@@ -1,0 +1,34 @@
+﻿Write a blog about objects and its internal representation in Javascript
+
+
+In Javascript, objects are a fundamental data type that allows developers to represent and manipulate data in a structured way. Objects are a collection of key-value pairs, where the keys are strings and the values can be of any data type, including other objects.
+
+
+An object in Javascript can be created in several ways. One common way is to use the object literal notation, where an object is defined as a set of curly braces {} containing key-value pairs separated by a colon :.
+
+
+For example, the following code creates an object representing a person with properties "name" and "age":
+
+
+let person = {
+  name: "John Doe",
+  age: 30
+};
+Another way to create an object is to use the Object constructor or the object initializer. This can be useful when creating multiple instances of the same object with similar properties.
+
+
+let person = new Object();
+person.name = "John Doe";
+person.age = 30;
+
+
+The internal representation of an object in Javascript is based on a hash table, also known as an associative array. The keys of an object are hashed and used as indices in the table, allowing for fast and efficient lookups of values.
+
+
+When a property is added to or removed from an object, the underlying hash table is updated accordingly. This means that the order of properties in an object is not guaranteed, as the order of elements in a hash table is not guaranteed.
+
+
+It's also worth noting that in Javascript, objects are reference types, which means that when an object is assigned to a variable, a reference to the object is stored in the variable, not a copy of the object. This means that changing a property of an object through one reference will be reflected in all other references to the same object.
+
+
+In conclusion, objects in Javascript are a fundamental data type that allows developers to represent and manipulate data in a structured way. They are internally represented as a hash table, which allows for fast and efficient lookups of values. Understanding the internal representation of objects can help developers write more efficient and performant code.
