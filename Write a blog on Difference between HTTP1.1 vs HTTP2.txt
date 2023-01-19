@@ -1,0 +1,27 @@
+﻿Write a blog on Difference between HTTP1.1 vs HTTP2.
+
+
+HTTP (Hypertext Transfer Protocol) is the foundation of data communication for the World Wide Web. It's the protocol that allows users to request and receive resources, such as web pages, images, and videos, from servers.
+HTTP1.1, the current version of the protocol, has been in use since 1999. It's a well-established and widely-used protocol that works well for most web-based applications. However, as the internet has evolved, the demands placed on HTTP1.1 have increased, leading to the development of a new version of the protocol: HTTP2.
+
+
+HTTP2, which was released in 2015, is an improvement over HTTP1.1 in several ways. Some of the key differences between the two versions include:
+1.Multiplexing: HTTP2 allows multiple requests to be sent over a single connection, reducing the number of round trips required to load a webpage. This results in faster page load times and better performance for web-based applications.
+
+
+2.Header compression: HTTP2 uses HPACK, a compression algorithm, to compress headers, reducing the amount of data that needs to be sent over the network. This improves performance and reduces the amount of bandwidth required.
+
+
+3.Server push: With HTTP2, servers can push resources to the client, eliminating the need for the client to request them. This can further improve page load times and performance.
+
+
+4.Binary format: HTTP2 uses a binary format for data transfer, which is more efficient than the text-based format used in HTTP1.1. This reduces the amount of overhead required for data transfer and improves performance.
+
+
+5.Prioritization: HTTP2 allows clients to indicate to the server the priority of requests. This allows the server to prioritize the most important requests, further improving performance.
+
+
+Overall, HTTP2 is a significant improvement over HTTP1.1. It is designed to handle the increased demands of the modern web and provides faster page load times, better performance, and more efficient data transfer.
+
+
+However, it's worth noting that not all servers and clients support HTTP2 yet, and that it requires HTTPS encryption in order to work. So, it's important to check your server and client for compatibility before upgrading to HTTP2.
